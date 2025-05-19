@@ -1,35 +1,65 @@
-# ResumeOPT
-A smart resume optimizer that helps job seekers tailor their resumes using AI and keyword analysis.
+# ResumeOPT: AI-Powered Resume Optimization Tool
 
+ResumeOPT is a web-based application that uses artificial intelligence to help users optimize their resumes based on job descriptions. By integrating the ResumeOptimizerPro API, it delivers actionable feedback to increase the chances of passing Applicant Tracking Systems (ATS) and impressing hiring managers.
 
-# ResumeOPT
+## 🚀 Features
 
-ResumeOPT is an AI-powered resume optimization tool that helps job seekers tailor their resumes to match job descriptions. It uses natural language processing to analyze your resume, identify missing keywords, and suggest enhancements for better applicant tracking system (ATS) performance.
+- Resume Parsing & Structured Analysis
+- Keyword Matching & Suggestions
+- ATS Compatibility Checks
+- Resume Scoring System
+- Real-Time Feedback UI
+- Grammar & Readability Insights
 
-## 💡 Features
+## 🛠️ Tech Stack
 
-- Upload your resume and job description
-- Keyword gap analysis
-- Resume scoring based on match
-- Suggestions for improving wording and alignment
-- Option to generate tailored summaries
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Python (Flask for API integration)
+- **API**: ResumeOptimizerPro via RapidAPI
+- **Tools**: GitHub, Visual Studio Code, Resume Samples
 
-## 🚀 Getting Started
+## 📦 Installation
 
-### Prerequisites
-- Python 3.8+
-- `streamlit`, `openai`, `nltk`, `pdfminer.six`, etc.
-
-### Installation
 ```bash
 git clone https://github.com/YOUR_USERNAME/ResumeOPT.git
 cd ResumeOPT
-pip install -r requirements.txt
+# (Add any setup commands here, e.g., npm install, pip install -r requirements.txt)
 
+🧪 Testing
+Used real and mock resumes to validate system output
 
-👤 Author
-Kasie Stewart
-Capstone Project @ Benedict College
+Simulated API responses due to usage limits (5/month)
+
+Verified parsing, keyword matching, and scoring accuracy
+
+📌 Use Cases
+Students & Recent Graduates optimizing for internships
+
+Professionals changing industries
+
+Resume coaches working with clients
+
+⚠️ Limitations
+ResumeOptimizerPro API (free tier) allows only 5 monthly uses
+
+Offline mode implemented using mock response data
+
+📈 Future Enhancements
+Firebase login for user profiles
+
+Resume Builder with downloadable templates
+
+PDF Export with annotated feedback
+
+LinkedIn import for fast resume generation
+
+AI chatbot assistant for real-time optimization help
+
+👩🏽‍💻 Author
+Kasie A. Stewart
+Mentor: Dr. Balaji Iyangar
+Senior Capstone Project | Benedict College
+
 
 
 
