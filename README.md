@@ -25,3 +25,11 @@ ResumeOPT is an AI-powered resume optimization tool that helps job seekers tailo
 git clone https://github.com/YOUR_USERNAME/ResumeOPT.git
 cd ResumeOPT
 pip install -r requirements.txt
+
+
+👤 Author
+Kasie Stewart
+Capstone Project @ Benedict College
+
+
+
